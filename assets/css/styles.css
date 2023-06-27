@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #f8f9fa ;
+    font-family: 'Noto Sans', 'Arial', 'Helvetica', sans-serif;
+}
+
+
+#main {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.navbar-nav .nav-link {
+    
+    color: #f8f9fa; /* Màu chữ khi hover */
+  
+}
+.navbar-nav .nav-link:hover {
+  
+    
+    font-weight:bold;
+}
+.navbar-nav .nav-link {
+    font-size: 25px; /* Thay đổi kích thước chữ tùy ý */
+}
+.navbar-toggler-icon2::before {
+   
+    content: '\2630'; /* Ký tự Unicode của biểu tượng X */    
+}
+        
+.navbar-toggler-icon2.active::before {
+    content: '\2715'; /* Ký tự Unicode của biểu tượng gạch */
+}  
+
+.wall-body {
+    background-color: #eeeeee;
+    border: 0px solid black;
+}   
+.wall-main {
+    padding: 120px;
+    
+}
+#lng2 {
+    background-color: white;
+}
+
+.title {
+    text-align: center;
+    font-size: 4rem;
+    color: #34a68b;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 50px 0px 56px;
+}
+.title2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #ad7e22;;
+    padding: 80px 30px 30px;
+    line-height: 130%;
+   
+}
+.greet {
+    margin: 0px auto;
+    padding: 0px 0px;
+    width: 75%;
+    max-width: 800px;
+    font-weight:600;
+    color: black;
+    line-height: 180%;
+    font-size: 15px
+}
+.image-container {
+    display: inline-block;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 70px;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.2);
+  }
+#dv{
+    margin-top: -12px;
+}
+#footer {
+    background-color: #212529!important;
+    height: 110px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 40px;
+    
+}
+
+  .scroll-to-top {
+    position: fixed;
+    bottom: 100px;
+    right: 40px;
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: #34a68b;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    z-index: 9999;
+  }
+  .scroll-to-top:hover{
+    color: black;
+  }
+  .scroll-to-top.show {
+    display: block;
+  }
+  .content{
+    display: flex;
+    justify-content: space-between;
+  }
+  .p {
+    text-align: right;line-height: 180%;
+    font-size: 20px;padding-left: 20px;padding-bottom: 38px; margin-bottom: 70px;
+  }
+  .dl.about {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 50px auto 50px;
+}
+.dl.about {
+  width: 80%;
+  max-width: 764px;
+  margin: 0px;
+  padding-bottom: 25px;
+}
+
+.tt {
+  display: flex;
+  justify-content: space-between;
+}
+.img1{
+
+  height: 552px;
+  width: 100%;
+}
+.img2{
+
+  height: 552px;
+  width: 100%;
+}
+.img3{
+
+  height: 552px;
+  width: 100%;
+}
+.view {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+}
+.xt{
+  text-align: center;
+}
+.a{
+  color: black;
+}
+.a:hover{
+  color: #34a68b;
+}
+@media (max-width: 767px) {
+    .navbar-nav .nav-link {
+        font-size: 18px; /* Kích thước chữ nhỏ hơn cho chế độ di động */
+    }
+    #main {
+    padding-left: 0;
+    padding-right: 0;
+    }
+    .navbar .navbar-collapse {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 1000;
+        width: 100%;
+        background-color: #212529;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+        display: none;
+        padding-left: 10px;
+      }
+
+      .navbar .navbar-collapse.show {
+        display: block;
+      }
+      .container-fluid {
+        margin-right: 0px !important; 
+        margin-left: 0px !important;
+       
+      }
+      .wall-main {
+        padding: 10px;
+        
+    }
+    .title {
+        text-align: center;
+        font-size: 3rem;
+        color: #34a68b;
+        font-weight: 400;
+        line-height: 150%;
+        padding: 30px 0px 30px;
+    }
+    .p {
+     
+      margin-bottom: 12px;
+    }
+    .p2{
+      margin-bottom: 24px;
+    }
+    #dv{
+      margin-top: -12px;
+  }
+  .img1{
+    height: 280px;
+  
+  }
+  .img2{
+    height: 280px;
+  
+  }
+  .img3{
+    height: 280px;
+  
+  }
+  .xt{
+    text-align: justify;
+  }
+  .aa{
+    margin: 0px 44px;
+  }
+  
+}
